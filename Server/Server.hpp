@@ -26,6 +26,7 @@ private:
 
     Server(const Server&) = delete;
     Server& operator=(const Server&) = delete;
+
     bool createSocket();
     bool bindSocket();
     bool listenConnection();
